@@ -45,7 +45,7 @@ app.use(
 
 app.use(cookieParser());
 app.use(express.json());
-api.use("/api/hello", (req, res) => {
+app.use("/api/hello", (req, res) => {
   res.send("Hello world");
 });
 app.use("/api/auth", authRouter);
