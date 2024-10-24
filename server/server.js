@@ -30,7 +30,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://gebeyashop.vercel.app",
+    origin: "https://gebeyashop.onrender.com",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
